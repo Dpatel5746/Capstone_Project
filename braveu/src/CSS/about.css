@@ -1,0 +1,132 @@
+.abtheaderimg {
+  width:500px;
+  height:500px;
+  /* border-radius: 50%; */
+}
+
+.headerrow {
+  display: flex;
+  align-items: center;
+  background-color: white;
+  color: black;
+}
+
+.headercolumn {
+  flex: 33.33%;
+  margin: 5%;
+  padding: 15px;
+}
+
+.abt_head{
+  padding-bottom: 40px;
+}
+
+.our_team_head{
+  margin-left: 670px;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.abt_cards{
+  margin: 10px;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.column {
+  float: left;
+  width: 25%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin: 8px;
+}
+
+.about-section {
+  padding: 50px;
+}
+
+.container {
+  padding: 0 16px;
+}
+
+.container::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.title {
+  color: grey;
+}
+
+.button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #2A403D;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+}
+
+.button:hover {
+  background-color: #748B65;
+}
+
+@media screen and (max-width: 650px) {
+  .column {
+    width: 100%;
+    display: block;
+  }
+
+  .headerrow {
+      display: flex;
+      flex-direction: column-reverse;
+      align-items: center;
+      background-color: #D05663;
+      color: white;
+    }
+  
+    .headercolumn {
+      flex: 33.33%;
+      margin: 5%;
+      padding: 15px;
+    }
+    
+  .abtheaderimg {
+      width: 400px;
+      height: 400px;
+  }
+}
+
+
+/* Categories
+ ----------------------------- */
+.categories h1 {
+text-align: center;
+    font-size:30px; font-weight:300; color:#222; letter-spacing:1px;
+    text-transform: uppercase;
+
+    display: grid;
+    grid-template-columns: 1fr max-content 1fr;
+    grid-template-rows: 27px 0;
+    grid-gap: 20px;
+    align-items: center;
+}
+
+.categories h1:after,.categories h1:before {
+    content: " ";
+    display: block;
+    border-bottom: 1px solid #c50000;
+    border-top: 1px solid #c50000;
+    height: 5px;
+  background-color:#f8f8f8;
+}

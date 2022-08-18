@@ -1,0 +1,263 @@
+.main_content{
+    /* height: 2000px; */
+    width: 100%;
+}
+.newsletter{
+    /* justify-content: center; */
+    align-items: center;
+}
+.nwsltr_p{
+    text-align: center;
+}
+.n_inpt::placeholder{
+    opacity: 50%;
+}
+.nwsltr{
+    padding-top: 50px;
+    padding-bottom: 200px;
+  }
+  .nwsltr_p{
+    opacity: 70%;
+    margin-bottom: 50px;
+  }
+  .n_head{
+    margin-left: 100px;
+    padding: 10px 10px 15px 10px;
+  }
+  .n_inpt{
+    width: 360px;
+  }
+  .n_btn{
+    height: 40px;
+    margin-left: 10px;
+    background-color: #013328;
+    color: white;
+  }
+  /* .n_btn:hover{
+    background-color: #cc8b65;
+  } */
+
+
+
+  
+  
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+:root {
+    /* --surface-color: #fff; */
+    --curve: 40;
+  }
+  
+  .cat_section{
+    width: 100%;
+    padding-top: 100PX;
+    padding-bottom: 100px;
+    background-color: white;
+}
+
+.cat_head{
+    margin-left: 45%;
+    padding-top: 100px;
+}
+
+  .cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 5rem;
+    margin: 4rem 10vw;
+    padding: 0;
+    list-style-type: none;
+  }
+  
+  .card_1 {
+    position: relative;
+    display: block;
+    height: 100%;  
+    border-radius: calc(var(--curve) * 1px);
+    overflow: hidden;
+    text-decoration: none;
+  }
+  
+  .card__image {      
+    width: 100%;
+    height: auto;
+    border-radius: calc(var(--curve) * 1px);
+  }
+  
+  .card__overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;      
+    border-radius: calc(var(--curve) * 1px);    
+    /* background-color: var(--surface-color);     */
+    background: hsl(0 0% 100% / 0.6);
+    backdrop-filter: blur(1rem);  
+    transform: translateY(100%);
+    transition: .2s ease-in-out;
+  }
+  
+  .card_1:hover .card__overlay {
+    transform: translateY(0);
+  }
+
+  .card_1:hover {
+    transform: translateY(-100);
+  }
+  
+  .card__header {
+    position: relative;
+    display: flex;
+    align-items: center;
+    gap: 2em;
+    padding: 2em;
+    border-radius: calc(var(--curve) * 1px) 0 0 0;   
+    background: hsl(0 0% 100% / 0.1);
+    backdrop-filter: blur(1rem); 
+    transform: translateY(-100%);
+    transition: .2s ease-in-out;
+  }     
+  
+  .card_1:hover .card__header {
+    transform: translateY(0);
+  }
+  
+  .card__description {
+    padding: 0 2em 2em;
+    margin: 70px auto 0px 80px;
+    color: black;
+    /* font-family: "MockFlowFont";    */
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3;
+    overflow: hidden;
+  }    
+
+
+
+
+
+
+
+  .cards_2 {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    gap: 2rem;
+    margin: 4rem 10vw;
+    padding: 0;
+    list-style-type: none;
+  }
+  
+  .card_2 {
+    position: relative;
+    display: block;
+    height: 300px; 
+    width: 150px; 
+    object-fit: cover;
+    border-radius: 10px;
+    /* overflow: hidden; */
+    text-decoration: none;
+  }
+  
+  .card__image_2 {      
+    width: 150px;
+    height: 200px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .card__overlay_2 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;      
+    border-radius: calc(var(--curve) * 1px);    
+    /* background-color: var(--surface-color);     */
+    /* background: hsl(0 0% 100% / 0.5);
+    backdrop-filter: blur(1rem);   */
+    transform: translateY(40%);
+    /* transform: translateY(20%) translateX(5%); */
+    transition: .2s ease-in-out;
+  }
+  
+  /* .card_2:hover .card__overlay_2 {
+    transform: translateY(0);
+  }
+
+  .card_2:hover {
+    transform: translateY(-100);
+  } */  
+  
+  .card__description_2 {
+    padding: 0 2em 0.3em 0em;
+    margin: 0px auto 0px 0px;
+    color: black;
+    /* font-family: "MockFlowFont";    */
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3;
+    /* overflow: hidden; */
+  }    
+
+  .feat_section{
+      width: 100%;
+      padding-top: 50PX;
+      padding-bottom: 150px;
+      background-color: white;
+  }
+  
+  .feat_head{
+      margin-left: 40%;
+  }
+  
+  .f_cat_name{
+      opacity: 70%;
+      color: black;
+  }
+
+  .home_prod_price{
+    color: black;
+    transform: translateY(-60%);
+  }
+
+  .str_group{
+    transform: translateY(-160%);
+  }
+
+  .color_radio:checked{
+    background-color: aqua;
+  }
+
+  /* .card__image_2:hover{
+    opacity: 70%;
+  } */
+
+  .card_2:hover{
+    transform: scale(1.2);
+    /* transition-duration: 1000ms; */
+  }
+
+
+
+
+
+
+

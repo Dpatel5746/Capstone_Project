@@ -1,0 +1,75 @@
+.det_1_flex{
+    /* height: 200px; */
+    margin: 30px 30px 30px 30px;
+}
+
+.f_1{
+    height: 700px;
+    width: 100%;
+    /* background-color: aquamarine; */
+    /* padding: 20px; */
+    flex-basis: 50%;
+}
+
+.f_2{
+    height: 500px;
+    width: 100%;
+    /* background-color: darkmagenta; */
+    padding: 20px 20px 20px 30px;
+    flex-basis: 50%;
+}
+
+.prod_det_img{
+    object-fit: cover;
+    border-radius: 8%;
+    padding: 20px;
+    height: 500px;
+    width: 100%;
+}
+
+.str_group_detail{
+    transform: translateY(-30%);
+}
+
+.str_rat_detail{
+
+    color: #ffc400;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

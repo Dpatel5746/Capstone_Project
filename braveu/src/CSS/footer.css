@@ -1,0 +1,93 @@
+.footer_main{
+    width: 100%;
+    bottom: 0;
+}
+
+.ftr_logo{
+    vertical-align: middle;
+}
+
+.ftr_logo:hover, .logo:hover{
+    height: 40px;
+    width: 40px;
+    transform: translate(5s);
+}
+
+.footer{
+    height: 350px;
+    width: 100%;
+    background-color: rgb(29, 29, 29);
+    padding: 40px;
+    color: white;
+}
+
+.f_sections{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.quick_links{
+    display: flex;
+    flex-direction: column;
+}
+
+.social_links{
+    display: flex;
+    flex-direction: row;
+}
+
+.quick_links a{
+    padding: 5px;
+    text-decoration: none;
+    color: white;
+}
+
+.social_links a{
+    padding: 5px;
+    text-decoration: none;
+    color: white;
+}
+
+.social_links a:hover{
+    color: white;
+}
+
+.f_about{
+    width: 400px;
+}
+
+.copy_right{
+    padding: 5px 5px 5px 10px;
+    background-color: rgb(65, 65, 65);
+    color: white;
+}
+
+.f_social_icon{
+    background-color: rgb(71, 71, 71);
+    align-items: center;
+    padding: 12px 0px 0px 13px;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+}
+
+.facebook:hover{
+    background-color: #4267B2;
+}
+
+.linkedin:hover{
+    background-color: #0072b1;
+}
+
+.instagram:hover{
+    background-color: #C13584;
+}
+
+.twitter:hover{
+    background-color: #00acee;
+}
+
+
+
+

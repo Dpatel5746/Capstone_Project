@@ -1,0 +1,44 @@
+.cards_cat{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    gap: 2rem;
+    margin: 4rem 10vw;
+    padding: 0;
+    list-style-type: none;
+}
+
+.card_cat{
+    position: relative;
+    display: block;
+    height: 300px; 
+    width: 150px; 
+    object-fit: cover;
+    border-radius: 10px;
+    /* overflow: hidden; */
+    text-decoration: none;
+}
+
+.abc{
+    /* background-color: black; */
+    /* border: 1px solid black; */
+    width: 150px;
+    height: 200px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+/* .abc:hover{
+    opacity: 70%;
+} */
+
+.card_cat:hover{
+    transform: scale(1.2);
+    /* transition-duration: 1000ms; */
+  }
+
+.fp_name{
+    margin-top: 100px;
+    margin-left: 150px;
+    transform: translateY(80%);
+}
+
