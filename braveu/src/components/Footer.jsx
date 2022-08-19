@@ -89,7 +89,7 @@ const Footer = () => {
                 </div>
 
                 <div className="copy_right">
-                    <small> copyright &copy; BraveU. All rights reserved. Terms &#38; condition.</small>
+                    <small> Copyright &copy; BraveU 2022. All Rights Reserved. Terms &#38; Condition.</small>
                 </div>
             </div>
             
